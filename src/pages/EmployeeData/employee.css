@@ -1,0 +1,15 @@
+.employee-container {
+  padding: 30px;
+  background-color: #f9f9f9;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+.employee-data-header {
+  display: flex;
+  justify-content: space-between;
+}
+.employee-data-header h2 {
+  font-size: 28px;
+  margin: 0;
+  color: #2c3e50;
+}

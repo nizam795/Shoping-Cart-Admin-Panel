@@ -1,0 +1,34 @@
+.sidebar-container{
+    max-width: 314px;
+    width: 240px;
+    height: 100vh; /* full height of the screen */
+    background-color: white; /* dark sidebar */
+    color: white;
+    padding: 20px 10px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    position: fixed;
+  
+   
+}
+.sidebar-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.sidebar-list li {
+    padding: 15px 20px;
+    color: black;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    border-bottom: 1px solid #afabab;
+    
+}
+
+.sidebar-list li:hover {
+    background-color: #afabab;
+    color: blue;
+}
+a{
+    text-decoration: none;
+}

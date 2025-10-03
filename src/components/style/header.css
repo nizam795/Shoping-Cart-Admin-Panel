@@ -1,0 +1,44 @@
+.header-container {
+  position: sticky;
+  top: 0;
+  left: 260px; /* if sidebar is fixed and 260px wide */
+  height: 80px;
+  /* background-color: #d1cbcb; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 100;
+}
+/* .header-container h3 {
+  margin: 0;
+  font-size: 24px;
+  color: #333;
+} */
+.header-search-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.header-search-container input {
+  height: 36px;
+  width: 250px;
+  padding: 0 12px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+  background: white;
+}
+.profile-title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.profile-name {
+  font-weight: 500;
+  font-size: 16px;
+  color: #333;
+}
